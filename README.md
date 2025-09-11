@@ -1,9 +1,9 @@
 - [x] 1. Crear un repositorio público en GitHub llamado exactamente `u4-js-sitio`.
-- [ ] 2. Crear carpeta `/js` y archivo `app.js` enlazado en todas las páginas.
-- [ ] 3. Declarar las constantes `APP_NOMBRE`, `APP_VERSION`, `ANIO`.
-- [ ] 4. Declarar variables con `let`: `contadorVisitas`, `usuarioActivo`, `esMovil`.
-- [ ] 5. Crear funciones `sumar()` y `multiplicar()`.
-- [ ] 6. Mostrar mensaje de bienvenida en el elemento con id `#salida` usando template string.
+- [x] 2. Crear carpeta `/js` y archivo `app.js` enlazado en todas las páginas.
+- [x] 3. Declarar las constantes `APP_NOMBRE`, `APP_VERSION`, `ANIO`.
+- [x] 4. Declarar variables con `let`: `contadorVisitas`, `usuarioActivo`, `esMovil`.
+- [x] 5. Crear funciones `sumar()` y `multiplicar()`.
+- [x] 6. Mostrar mensaje de bienvenida en el elemento con id `#salida` usando template string.
 - [ ] 7. Implementar botón con contador de visitas y actualización visual en `#totalVisitas`.
 - [ ] 8. Función `mostrarHora()` que despliegue un reloj actualizado en el header.
 - [ ] 9. Navegación activa basada en atributo `data-page` y clase `activo`.
