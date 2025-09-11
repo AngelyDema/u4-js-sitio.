@@ -1,5 +1,5 @@
 - [x] 1. Crear un repositorio público en GitHub llamado exactamente `u4-js-sitio`.
-- [ ] 2. Crear carpeta `/js` y archivo `app.js` enlazado en todas las páginas.
+- [x] 2. Crear carpeta `/js` y archivo `app.js` enlazado en todas las páginas.
 - [ ] 3. Declarar las constantes `APP_NOMBRE`, `APP_VERSION`, `ANIO`.
 - [ ] 4. Declarar variables con `let`: `contadorVisitas`, `usuarioActivo`, `esMovil`.
 - [ ] 5. Crear funciones `sumar()` y `multiplicar()`.
