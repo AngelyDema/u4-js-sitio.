@@ -4,7 +4,7 @@
 - [x] 4. Declarar variables con `let`: `contadorVisitas`, `usuarioActivo`, `esMovil`.
 - [x] 5. Crear funciones `sumar()` y `multiplicar()`.
 - [x] 6. Mostrar mensaje de bienvenida en el elemento con id `#salida` usando template string.
-- [ ] 7. Implementar botón con contador de visitas y actualización visual en `#totalVisitas`.
+- [x] 7. Implementar botón con contador de visitas y actualización visual en `#totalVisitas`.
 - [ ] 8. Función `mostrarHora()` que despliegue un reloj actualizado en el header.
 - [ ] 9. Navegación activa basada en atributo `data-page` y clase `activo`.
 - [ ] 10. DOM básico: cambiar color de fondo con botones (rojo, verde, azul).
