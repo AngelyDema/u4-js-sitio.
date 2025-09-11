@@ -1,0 +1,377 @@
+/* Reset CSS básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo base body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background: #FAFAFA;
+}
+
+/* Estilos de encabezados */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0D47A1;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+/* Menú nav con Flexbox */
+nav {
+    display: flex;
+}
+/* Logo en el header */
+.logo{
+    height: 60px;
+    margin: 10px;
+}
+/*Video en acerca*/
+video{
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+/* Clase activo para enlace actual */
+.activo {
+    text-decoration: none;
+    color:#144D8F;
+}
+
+/* Main centrado */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Selector descendente main p */
+main p {
+    margin-bottom: 10px;
+}
+
+/* Sección intro */
+#intro {
+    background: #E3F2FD;
+    border: 1px solid #BBDEFB;
+    padding: 20px;
+}
+
+/* Sección tarjetas con Grid */
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover en tarjeta */
+.tarjeta:hover {
+    transform: translateY(-3px);
+}
+
+/* Clases de color */
+.hex {
+    color: #1D4245;
+}
+
+.rgb {
+    color: rgb(29, 66, 69);
+}
+
+.hsl {
+    color: hsl(190, 50%, 22%);
+}
+
+/* Párrafos con diferentes unidades */
+.demo-px {
+    font-size: 18px;
+}
+
+.demo-percent {
+    width: 50%;
+}
+
+.demo-em {
+    font-size: 1.2em;
+}
+
+.demo-rem {
+    font-size: 1.5rem;
+}
+
+/* Tres cajas con margin, padding y border */
+.caja1 {
+    margin: 10px;
+    padding: 15px;
+    border: 2px dashed #a2aef1;
+    background: #E3F2FD;
+}
+
+.caja2 {
+    margin: 20px;
+    padding: 25px;
+    border: 3px dotted #84adeb;
+    background: #FAFAFA;
+}
+
+.caja3 {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    border: 3px solid #94d8f3;
+    background: white;
+    width: 500px;
+}
+
+/* Banner fijo superior */
+.banner-fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0D47A1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Badge absoluto con contenedor relativo */
+.contenedor-badge {
+    position: relative;
+    display: inline;
+    margin-bottom: 2rem;
+}
+
+/* Badge absoluto, destacada en la esquina superior derecha */
+.badge{
+    position: absolute;
+    background: #0D47A1;
+    color: #E3F2FD;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border: 3px solid #E3F2FD;
+    z-index: 2;
+    }
+
+/* Chips con bordes redondeados */
+.chip {
+    display: inline-block;
+    background: #E3F2FD;
+    color: #0D47A1;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+/* Tabla con filas alternadas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #BBDEFB;
+}
+
+table th {
+    background: #0D47A1;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #cbdbff;
+}
+
+table tr:nth-child(odd) {
+    background: rgb(149, 193, 250);
+}
+
+/* Formulario estilizado */
+form {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #BBDEFB;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background: #0D47A1;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #1565C0;
+}
+
+button{
+    background-color: #0D47A1;
+    color: #E3F2FD;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #1565C0;
+}
+
+/* Estados de error */
+.error {
+    border-color: #f44336;
+    background-color: #ffebee;
+}
+
+.mensaje-error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Galería de imágenes con Grid */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estados de foco visibles */
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #727bfc;
+    outline-offset: 2px;
+}
+
+/* Footer */
+footer {
+    background: #212121;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    .demo-percent {
+        width: 100%;
+    }
+
+    .caja3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
