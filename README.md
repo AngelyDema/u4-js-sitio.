@@ -20,6 +20,8 @@
 - [x] 20. Entregar con un README que incluya instrucciones y capturas de pantalla.
 <p>Captures</p>
 <img width="323" height="393" alt="image" src="https://github.com/user-attachments/assets/8a1f7473-9671-4e34-b646-9d40c1656246" />
+<img width="686" height="250" alt="image" src="https://github.com/user-attachments/assets/b25815a8-e28e-4be6-a165-1b0ae93d760d" />
+
 <img width="363" height="159" alt="image" src="https://github.com/user-attachments/assets/239f7ac1-6b1b-4747-9df4-54d595d1a5eb" />
 <img width="524" height="202" alt="image" src="https://github.com/user-attachments/assets/4a5dd23a-0e89-47e6-806b-4b204d2ce02f" />
 <img width="591" height="389" alt="image" src="https://github.com/user-attachments/assets/48718603-0ec2-4fae-9efb-cd291f90f234" />
