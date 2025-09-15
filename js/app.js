@@ -9,15 +9,32 @@ let usuarioActivo = false;
 let esMovil;
 
 //Declarar funciones
-function sumar(a, b) {
-a;
-b;
+ function sumar(a, b) {
     return a + b;
-}
+  }
 
-function multiplicar(a, b) {
-    return a*b;
-}
+  function multiplicar(a, b) {
+    return a * b;
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const input1 = document.getElementById('num1');
+    const input2 = document.getElementById('num2');
+    const resultado = document.getElementById('resultadoCalculo');
+
+    document.getElementById('btnSumar').addEventListener('click', () => {
+      const n1 = parseFloat(input1.value);
+      const n2 = parseFloat(input2.value);
+      resultado.textContent = `Suma: ${sumar(n1, n2)}`;
+    });
+
+    document.getElementById('btnMultiplicar').addEventListener('click', () => {
+      const n1 = parseFloat(input1.value);
+      const n2 = parseFloat(input2.value);
+      resultado.textContent = `Multiplicación: ${multiplicar(n1, n2)}`;
+    });
+  });
+
 
 //Mensaje de bienvenida
 function mostrarBienvenida() {
@@ -223,7 +240,7 @@ class Util {
   }
 }
 
-//Inialización de la we
+//Inialización de la web
 
 function initApp() {
   mostrarBienvenida();
