@@ -8,22 +8,23 @@
   <link rel="stylesheet" href="css\styles.css">
   <script src="js\app.js" defer></script>
 </head>
-<body>
+<body data-page="acerca">
   <header>
     <a href="index.html"><img class="logo" src="img\logo.svg" alt="Logo Blue Bank"></a>
     <nav aria-label="Principal">
-      <a href="index.html">Inicio</a>
-      <a href="acerca.html" aria-current="page">Acerca</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="blog.html">Blog</a>
-      <a href="galeria.html">Galería</a>
-      <a href="tabla.html">Tabla</a>
-      <a href="contacto.html">Contacto</a>
-      <a href="legal.html">Legal</a>
+      <a href="index.html" data-page="inicio">Inicio</a>
+      <a href="acerca.html" data-page="acerca">Acerca</a>
+      <a href="servicios.html" data-page="servicos">Servicios</a>
+      <a href="blog.html"data-page="BLOG">Blog</a>
+      <a href="galeria.html" data-page="galeria">Galería</a>
+      <a href="tabla.html" data-page="tabla">Tabla</a>
+      <a href="contacto.html" data-page="contacto">Contacto</a>
+      <a href="legal.html" data-page="legal">Legal</a>
     </nav>
+    <span id="reloj"></span>
   </header>
   <main>
-    <section id="intro">
+    <section>
       <h1>Sobre nosotros</h1>
       <p class="rgb">En Blue Bank nacimos con un propósito claro: devolverle la confianza a las personas en el sistema financiero y construir un futuro donde la estabilidad y la innovación caminen de la mano.
 
@@ -49,10 +50,23 @@ Propósito: Hacer que cada persona sienta que sus sueños están respaldados por
         <li class="chip">Servicio</li>
       </ul>
     </section>
+  <section>
+  <span>
+    <button id="btnVisitas">Contar visitas</button>
+    <div id="totalVisitas">Visitas: 0</div>
+  </span>
+  <span>
+    <button id="btnRojo">Rojo</button>
+    <button id="btnVerde">Verde</button>
+    <button id="btnAzul">Azul</button>
+    <button id="btnDefecto">Defecto</button>
+  </span>
+  </section>
+
   </main>
   <footer>
     <nav><a class ="activo" href="legal.html">Legal</a> | <a class ="activo" href="contacto.html">Contacto</a></nav>
-    <small>&copy; 2025 Blue Bank</small>
+    <small id="perfil" >&copy; 2025 Blue Bank</small>
   </footer>
 </body>
 </html>

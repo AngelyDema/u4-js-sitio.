@@ -27,6 +27,12 @@ h3 {
     font-size: 20px;
 }
 
+#salida {
+  color: #0D47A1;
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+
 /* Header */
 header {
     background-color: #0D47A1;

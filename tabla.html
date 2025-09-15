@@ -8,19 +8,21 @@
 <link rel="stylesheet" href="css\styles.css">
 <script src="js\app.js" defer></script>
 </head>
-<body>
+<body data-page="tabla">
     <header>
     <a href="index.html"><img class="logo" src="img\logo.svg" alt="Logo Blue Bank"></a>
     <nav aria-label="Principal">
-      <a href="index.html">Inicio</a>
-      <a href="acerca.html" aria-current="page">Acerca</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="blog.html">Blog</a>
-      <a href="galeria.html">Galería</a>
-      <a href="tabla.html">Tabla</a>
-      <a href="contacto.html">Contacto</a>
-      <a href="legal.html">Legal</a>
+      <a href="index.html" data-page="inicio">Inicio</a>
+      <a href="acerca.html" data-page="acerca" aria-current="page">Acerca</a>
+      <a href="servicios.html" data-page="servicos">Servicios</a>
+      <a href="blog.html"data-page="BLOG">Blog</a>
+      <a href="galeria.html" data-page="galeria">Galería</a>
+      <a href="tabla.html" data-page="tabla">Tabla</a>
+      <a href="contacto.html" data-page="contacto">Contacto</a>
+      <a href="legal.html" data-page="legal">Legal</a>
     </nav>
+      <span id="reloj"></span>
+
   </header>
   <main>
     <section id="intro">
